@@ -17,6 +17,10 @@ namespace Domains
         public string CustomerSatisfied { get; set;}
         public DateTime UserUpdateTime { get;set;}
         public DateTime UserCreateTime { get; set;}
-        public int CustomerCurrentState { get; set;}
+        public int CustomerCurrentState { get; set; }
+
+        //TbCustomer has only user (Update Or Create):
+        public TbUser UpdatedByUser { get; set; }
+        public TbUser CreatedByUser { get; set; }
     }
 }
