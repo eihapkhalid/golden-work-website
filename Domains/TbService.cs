@@ -53,5 +53,9 @@ namespace Domains
         public TbUser UpdatedByUser { get; set; }
         public TbUser CreatedByUser { get; set; }
 
+        // A booking can have multiple services, and a service can be booked multiple times.
+        public virtual ICollection<TbBooking> Bookings { get; set; }
+
+
     }
 }

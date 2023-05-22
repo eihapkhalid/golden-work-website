@@ -55,5 +55,9 @@ namespace Domains
         //TbCustomer has only user (Update Or Create):
         public TbUser UpdatedByUser { get; set; }
         public TbUser CreatedByUser { get; set; }
+
+        // A booking can have multiple customers, and a customer can make multiple bookings.
+        public virtual ICollection<TbBooking> Bookings { get; set; }
+
     }
 }

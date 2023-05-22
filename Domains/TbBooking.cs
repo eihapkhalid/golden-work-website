@@ -14,7 +14,7 @@ namespace Domains
         public int BookingID { get; set; }
 
         [ValidateNever]
-        public int CustomerID { get; set;}
+        public int CustomerID { get; set; }
 
         [ValidateNever]
         public int ServiceID { get; set; }
@@ -32,7 +32,7 @@ namespace Domains
         [Required(ErrorMessage = "Booking End date is required.")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
-        public DateTime BookingEndDate { get; set;}
+        public DateTime BookingEndDate { get; set; }
 
         [Required(ErrorMessage = "update date Time is required.")]
         [DataType(DataType.Date)]
@@ -50,5 +50,9 @@ namespace Domains
         //TbBooking has only user (Update Or Create):
         public TbUser UpdatedByUser { get; set; }
         public TbUser CreatedByUser { get; set; }
+
+        //TbBooking has relation  :
+        public virtual TbCustomer Customer { get; set; }
+        public virtual TbService Service { get; set; }
     }
 }
