@@ -27,6 +27,7 @@ namespace Domains
         public string TechnicianQualification { get; set; }
 
         [Required]
+        [StringLength(200, ErrorMessage = "Length must be less than 200")]
         public string TechnicianImage { get; set; }
 
         [Required(ErrorMessage = "Technician Qualification  is Required")]
