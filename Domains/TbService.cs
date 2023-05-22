@@ -19,5 +19,9 @@ namespace Domains
         public string ServiceCurrentlyFeatured { get; set;}
         public int ServiceCurrentState { get; set; }
 
+        //TbService has only user (Update Or Create):
+        public TbUser UpdatedByUser { get; set; }
+        public TbUser CreatedByUser { get; set; }
+
     }
 }
