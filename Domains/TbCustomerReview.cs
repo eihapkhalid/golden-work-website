@@ -17,5 +17,9 @@ namespace Domains
         public DateTime UserCreateTime { get; set; }
         public int CustomerReviewCurrentlyFeatured { get; set;}
         public int CustomerReviewCurrentState { get; set; }
+
+        //TbCustomerReview has only user (Update Or Create):
+        public TbUser UpdatedByUser { get; set; }
+        public TbUser CreatedByUser { get; set; }
     }
 }
