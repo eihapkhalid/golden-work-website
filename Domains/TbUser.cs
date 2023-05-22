@@ -15,7 +15,7 @@ namespace Domains
         public int UserID { get; set; }
 
         [Required(ErrorMessage = "User Name is Required")]
-        [StringLength(50)]
+        [StringLength(50, ErrorMessage = "Length must be less than 50")]
         public string UserName { get; set; }
 
         [Required (ErrorMessage = "Password is Required")]
