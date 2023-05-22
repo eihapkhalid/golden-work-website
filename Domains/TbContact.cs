@@ -16,5 +16,9 @@ namespace Domains
         public DateTime UserUpdateTime { get; set; }
         public DateTime UserCreateTime { get; set; }
         public int ContactCurrentState { get; set; }
+
+        //TbContact has only user (Update Or Create):
+        public TbUser UpdatedByUser { get; set; }
+        public TbUser CreatedByUser { get; set; }
     }
 }
