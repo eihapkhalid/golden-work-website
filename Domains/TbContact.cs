@@ -30,12 +30,12 @@ namespace Domains
         [StringLength(50, ErrorMessage = "Length must be less than 50")]
         public string ContactMessage { get; set; }
 
-        [Required(ErrorMessage = "Payment date is required.")]
+        [Required(ErrorMessage = "Update Time date is required.")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime UserUpdateTime { get; set; }
 
-        [Required(ErrorMessage = "Payment date is required.")]
+        [Required(ErrorMessage = "Create Time date is required.")]
         [DataType(DataType.DateTime)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime UserCreateTime { get; set; }

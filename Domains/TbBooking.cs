@@ -34,7 +34,7 @@ namespace Domains
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime BookingEndDate { get; set;}
 
-        [Required(ErrorMessage = "UserUp date Time is required.")]
+        [Required(ErrorMessage = "update date Time is required.")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime UserUpdateTime { get; set; }
