@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenWorkWebsite", "GoldenWorkWebsite\GoldenWorkWebsite.csproj", "{63900C25-9C58-4E87-AF5B-C756D647B5F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domains", "Domains\Domains.csproj", "{13FFF384-9CE9-418F-93F3-02BC9D0A7B16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63900C25-9C58-4E87-AF5B-C756D647B5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63900C25-9C58-4E87-AF5B-C756D647B5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63900C25-9C58-4E87-AF5B-C756D647B5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63900C25-9C58-4E87-AF5B-C756D647B5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FFF384-9CE9-418F-93F3-02BC9D0A7B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FFF384-9CE9-418F-93F3-02BC9D0A7B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FFF384-9CE9-418F-93F3-02BC9D0A7B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FFF384-9CE9-418F-93F3-02BC9D0A7B16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3A6295E-2AB2-446B-8977-2C3174D4E8BE}
+	EndGlobalSection
+EndGlobal
