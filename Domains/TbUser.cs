@@ -46,6 +46,8 @@ namespace Domains
         [DataType(DataType.DateTime)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime UserCreateTime { get; set; }
+
+        [ValidateNever]
         public int UserCurrentState { get; set; }
 
         //many of users have many proccecs for (Updating Or Creating):
