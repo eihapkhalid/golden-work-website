@@ -1,3 +1,8 @@
+using Bl.Interfaces;
+using Bl.Repositories;
+using Bl.Services;
+using Domains;
+
 namespace GoldenWorkWebsite
 {
     public class Program
@@ -10,6 +15,29 @@ namespace GoldenWorkWebsite
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
+            
+            #region Add scope 
+            //Add scope for TbUser,TbBankAccount,TbPayment (dependcy injection)
+            builder.Services.AddScoped<IGenericRepository<TbUser>, UserRepository>();
+            builder.Services.AddScoped<IBusinessLayer<TbUser>, UserService>();
+            builder.Services.AddScoped<IGenericRepository<TbTechnician>, TechnicianRepository>();
+            builder.Services.AddScoped<IBusinessLayer<TbTechnician>, TechnicianService>();
+            builder.Services.AddScoped<IGenericRepository<TbService>, ServiceRepository>();
+            builder.Services.AddScoped<IBusinessLayer<TbService>, ServiceService>();
+            builder.Services.AddScoped<IGenericRepository<TbNews>, NewsRepository>();
+            builder.Services.AddScoped<IBusinessLayer<TbNews>, NewsService>();
+            builder.Services.AddScoped<IGenericRepository<TbCustomer>, CustomerRepository>();
+            builder.Services.AddScoped<IBusinessLayer<TbCustomer>, CustomerService>();
+            builder.Services.AddScoped<IGenericRepository<TbCustomerReview>, CustomerReviewRepository>();
+            builder.Services.AddScoped<IBusinessLayer<TbCustomerReview>, CustomerReviewService>();
+            builder.Services.AddScoped<IGenericRepository<TbContact>, ContactRepository>();
+            builder.Services.AddScoped<IBusinessLayer<TbContact>, ContactService>();
+            builder.Services.AddScoped<IGenericRepository<TbBooking>, BookingRepository>();
+            builder.Services.AddScoped<IBusinessLayer<TbBooking>, BookingService>();
+            builder.Services.AddScoped<IGenericRepository<TbAbout>, AboutRepository>();
+            builder.Services.AddScoped<IBusinessLayer<TbAbout>, AboutService>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            #endregion
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
