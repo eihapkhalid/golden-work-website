@@ -36,22 +36,62 @@ namespace Bl.Services
             {
                 return false;
             }
-        } 
+        }
         #endregion
 
+        #region Get All Users
         List<TbUser> IBusinessLayer<TbUser>.GetAll()
         {
-            throw new NotImplementedException();
+            try
+            {
+                var lstUsers = context.TbUser.Where(a => a.UserCurrentState == 1).ToList();
+                return lstUsers;
+            }
+            catch
+            {
+                return new List<TbUser>();
+            }
         }
+        #endregion
 
+        #region Get User ById
         TbUser IBusinessLayer<TbUser>.GetById(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var ObjUser = context.TbUser.Where(a => a.UserID == id && a.UserCurrentState == 1).FirstOrDefault();
+                return ObjUser;
+            }
+            catch
+            {
+                return new TbUser();
+            }
         }
+        #endregion
 
+        #region Save User in DataBase
         bool IBusinessLayer<TbUser>.Save(TbUser table)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (table.UserID == 0)
+                {
+                    table.UserCurrentState = 1;
+                    context.TbUser.Add(table);
+                }
+                else
+                {
+                    context.Entry(table).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                }
+                unitOfWork.Commit(); //context.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            } 
+            #endregion
+
         }
     }
 }
