@@ -1,4 +1,5 @@
 ﻿using Bl.Interfaces;
+using Bl.Repositories;
 using Domains;
 using System;
 using System.Collections.Generic;
@@ -10,13 +11,14 @@ namespace Bl.Services
 {
     public class NewsService : IBusinessLayer<TbNews>
     {
-        #region define DbContext
-        private GoldenWorkDbContext context;
+        #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        public TechnicianService(GoldenWorkDbContext ctx, IUnitOfWork _unitOfWork)
+        private readonly NewsRepository newsRepository;
+
+        public NewsService(IUnitOfWork _unitOfWork, NewsRepository _newsRepository)
         {
-            context = ctx;
             unitOfWork = _unitOfWork;
+            newsRepository = _newsRepository;
         }
         #endregion
 
@@ -26,7 +28,7 @@ namespace Bl.Services
             try
             {
 
-                var news = GetById(id);
+                var news = ((IBusinessLayer<TbNews>)this).GetById(id);
                 news.NewsCurrentState = 0;
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
@@ -44,8 +46,7 @@ namespace Bl.Services
         {
             try
             {
-                var lstNews = context.TbNews.Where(a => a.NewsCurrentState == 1).ToList();
-                return lstNews;
+                return (List<TbNews>)newsRepository.Get_All();
             }
             catch
             {
@@ -59,7 +60,7 @@ namespace Bl.Services
         {
             try
             {
-                var ObjNews = context.TbNews.Where(a => a.NewsID == id && a.NewsCurrentState == 1).FirstOrDefault();
+                var ObjNews = newsRepository.FindBy(a => a.NewsID == id && a.NewsCurrentState == 1).FirstOrDefault();
                 return ObjNews;
             }
             catch
@@ -77,11 +78,11 @@ namespace Bl.Services
                 if (table.NewsID == 0)
                 {
                     table.NewsCurrentState = 1;
-                    context.TbNews.Add(table);
+                    newsRepository.Add(table);
                 }
                 else
                 {
-                    context.Entry(table).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    newsRepository.Edit(table);
                 }
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
