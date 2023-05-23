@@ -1,4 +1,5 @@
 ﻿using Bl.Interfaces;
+using Bl.Repositories;
 using Domains;
 using System;
 using System.Collections.Generic;
@@ -10,13 +11,14 @@ namespace Bl.Services
 {
     public class TechnicianService : IBusinessLayer<TbTechnician>
     {
-        #region define DbContext
-        private GoldenWorkDbContext context;
+        #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        public TechnicianService(GoldenWorkDbContext ctx, IUnitOfWork _unitOfWork)
+        private readonly TechnicianRepository technicianRepository;
+
+        public TechnicianService(IUnitOfWork _unitOfWork, TechnicianRepository _technicianRepository)
         {
-            context = ctx;
             unitOfWork = _unitOfWork;
+            technicianRepository = _technicianRepository;
         }
         #endregion
 
@@ -26,7 +28,7 @@ namespace Bl.Services
             try
             {
 
-                var technician = GetById(id);
+                var technician = ((IBusinessLayer<TbTechnician>)this).GetById(id);
                 technician.TechnicianCurrentState = 0;
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
@@ -44,8 +46,7 @@ namespace Bl.Services
         {
             try
             {
-                var lstTechnicians = context.TbTechnician.Where(a => a.TechnicianCurrentState == 1).ToList();
-                return lstTechnicians;
+                return (List<TbTechnician>)technicianRepository.Get_All();
             }
             catch
             {
@@ -59,7 +60,7 @@ namespace Bl.Services
         {
             try
             {
-                var ObjTechnician = context.TbTechnician.Where(a => a.TechnicianID == id && a.TechnicianCurrentState == 1).FirstOrDefault();
+                var ObjTechnician = technicianRepository.FindBy(a => a.TechnicianID == id && a.TechnicianCurrentState == 1).FirstOrDefault();
                 return ObjTechnician;
             }
             catch
@@ -77,11 +78,11 @@ namespace Bl.Services
                 if (table.TechnicianID == 0)
                 {
                     table.TechnicianCurrentState = 1;
-                    context.TbTechnician.Add(table);
+                    technicianRepository.Add(table);
                 }
                 else
                 {
-                    context.Entry(table).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    technicianRepository.Edit(table);
                 }
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
