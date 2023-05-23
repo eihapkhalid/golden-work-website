@@ -1,0 +1,5 @@
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.csproj.AssemblyReference.cache
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.AssemblyInfoInputs.cache
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.AssemblyInfo.cs
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.csproj.CoreCompileInputs.cache

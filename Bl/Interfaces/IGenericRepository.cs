@@ -16,4 +16,4 @@ namespace Bl.Interfaces
         void Edit(T entity);
     }
 }
-}
+

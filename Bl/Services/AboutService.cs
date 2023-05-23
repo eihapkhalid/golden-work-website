@@ -1,5 +1,6 @@
 ﻿using Bl.Interfaces;
 using Domains;
+using Bl.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,13 +11,14 @@ namespace Bl.Services
 {
     public class AboutService : IBusinessLayer<TbAbout>
     {
-        #region define DbContext
-        private GoldenWorkDbContext context;
+        #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        public TechnicianService(GoldenWorkDbContext ctx, IUnitOfWork _unitOfWork)
+        private readonly AboutRepository aboutRepository;
+
+        public AboutService(IUnitOfWork _unitOfWork, AboutRepository _aboutRepository)
         {
-            context = ctx;
             unitOfWork = _unitOfWork;
+            aboutRepository = _aboutRepository;
         }
         #endregion
 
@@ -26,7 +28,7 @@ namespace Bl.Services
             try
             {
 
-                var about = GetById(id);
+                var about = ((IBusinessLayer<TbAbout>)this).GetById(id);
                 about.AboutCurrentState = 0;
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
@@ -39,13 +41,14 @@ namespace Bl.Services
         }
         #endregion
 
-        #region Get All aboutS
+        #region Get All abouts
         List<TbAbout> IBusinessLayer<TbAbout>.GetAll()
         {
             try
             {
-                var lstabout = context.TbAbout.Where(a => a.AboutCurrentState == 1).ToList();
-                return lstabout;
+                return (List<TbAbout>)aboutRepository.Get_All();
+                
+
             }
             catch
             {
@@ -59,7 +62,7 @@ namespace Bl.Services
         {
             try
             {
-                var Objabout = context.TbAbout.Where(a => a.AboutID == id && a.AboutCurrentState == 1).FirstOrDefault();
+                var Objabout = aboutRepository.FindBy(a => a.AboutID == id && a.AboutCurrentState == 1).FirstOrDefault();
                 return Objabout;
             }
             catch
@@ -77,13 +80,14 @@ namespace Bl.Services
                 if (table.AboutID == 0)
                 {
                     table.AboutCurrentState = 1;
-                    context.TbAbout.Add(table);
+                    aboutRepository.Add(table);
                 }
                 else
                 {
-                    context.Entry(table).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    aboutRepository.Edit(table);
                 }
-                unitOfWork.Commit(); //context.SaveChanges();
+
+                unitOfWork.Commit();
                 return true;
             }
             catch
