@@ -1,4 +1,5 @@
 ﻿using Bl.Interfaces;
+using Bl.Repositories;
 using Domains;
 using System;
 using System.Collections.Generic;
@@ -8,15 +9,16 @@ using System.Threading.Tasks;
 
 namespace Bl.Services
 {
-    public class customerReviewReviewService:IBusinessLayer<TbCustomerReview>
+    public class CustomerReviewService:IBusinessLayer<TbCustomerReview>
     {
-        #region define DbContext
-        private GoldenWorkDbContext context;
+        #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        public TechnicianService(GoldenWorkDbContext ctx, IUnitOfWork _unitOfWork)
+        private readonly CustomerReviewRepository customerReviewRepository;
+
+        public CustomerReviewService(IUnitOfWork _unitOfWork, CustomerReviewRepository _customerReviewRepository)
         {
-            context = ctx;
             unitOfWork = _unitOfWork;
+            customerReviewRepository = _customerReviewRepository;
         }
         #endregion
 
@@ -26,7 +28,7 @@ namespace Bl.Services
             try
             {
 
-                var customerReview = GetById(id);
+                var customerReview = ((IBusinessLayer<TbCustomerReview>)this).GetById(id);
                 customerReview.CustomerReviewCurrentState = 0;
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
@@ -44,8 +46,7 @@ namespace Bl.Services
         {
             try
             {
-                var lstcustomerReview = context.TbCustomerReview.Where(a => a.CustomerReviewCurrentState == 1).ToList();
-                return lstcustomerReview;
+                return (List<TbCustomerReview>)customerReviewRepository.Get_All();
             }
             catch
             {
@@ -59,7 +60,7 @@ namespace Bl.Services
         {
             try
             {
-                var ObjcustomerReview = context.TbCustomerReview.Where(a => a.CustomerReviewID == id && a.CustomerReviewCurrentState == 1).FirstOrDefault();
+                var ObjcustomerReview = customerReviewRepository.FindBy(a => a.CustomerReviewID == id && a.CustomerReviewCurrentState == 1).FirstOrDefault();
                 return ObjcustomerReview;
             }
             catch
@@ -77,11 +78,11 @@ namespace Bl.Services
                 if (table.CustomerReviewID == 0)
                 {
                     table.CustomerReviewCurrentState = 1;
-                    context.TbCustomerReview.Add(table);
+                    customerReviewRepository.Add(table);
                 }
                 else
                 {
-                    context.Entry(table).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    customerReviewRepository.Edit(table);
                 }
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
