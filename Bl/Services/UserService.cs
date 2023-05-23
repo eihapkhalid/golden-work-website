@@ -19,10 +19,25 @@ namespace Bl.Services
             unitOfWork = _unitOfWork;
         }
         #endregion
+
+        #region Delete User
         bool IBusinessLayer<TbUser>.Delete(int id)
         {
-            throw new NotImplementedException();
-        }
+            try
+            {
+
+                var user = GetById(id);
+                user.UserCurrentState = 0;
+                unitOfWork.Commit(); //context.SaveChanges();
+                return true;
+
+            }
+            catch
+            {
+                return false;
+            }
+        } 
+        #endregion
 
         List<TbUser> IBusinessLayer<TbUser>.GetAll()
         {
