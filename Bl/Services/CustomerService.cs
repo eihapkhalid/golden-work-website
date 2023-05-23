@@ -1,4 +1,5 @@
 ﻿using Bl.Interfaces;
+using Bl.Repositories;
 using Domains;
 using System;
 using System.Collections.Generic;
@@ -10,13 +11,14 @@ namespace Bl.Services
 {
     public class CustomerService : IBusinessLayer<TbCustomer>
     {
-        #region define DbContext
-        private GoldenWorkDbContext context;
+        #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        public TechnicianService(GoldenWorkDbContext ctx, IUnitOfWork _unitOfWork)
+        private readonly CustomerRepository customerRepository;
+
+        public CustomerService(IUnitOfWork _unitOfWork, CustomerRepository _customerRepository)
         {
-            context = ctx;
             unitOfWork = _unitOfWork;
+            customerRepository = _customerRepository;
         }
         #endregion
 
@@ -26,7 +28,7 @@ namespace Bl.Services
             try
             {
 
-                var customer = GetById(id);
+                var customer = ((IBusinessLayer<TbCustomer>)this).GetById(id);
                 customer.CustomerCurrentState = 0;
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
@@ -44,8 +46,7 @@ namespace Bl.Services
         {
             try
             {
-                var lstcustomer = context.TbCustomer.Where(a => a.CustomerCurrentState == 1).ToList();
-                return lstcustomer;
+                return (List<TbCustomer>)customerRepository.Get_All();
             }
             catch
             {
@@ -59,7 +60,7 @@ namespace Bl.Services
         {
             try
             {
-                var Objcustomer = context.TbCustomer.Where(a => a.CustomerID == id && a.CustomerCurrentState == 1).FirstOrDefault();
+                var Objcustomer = customerRepository.FindBy(a => a.CustomerID == id && a.CustomerCurrentState == 1).FirstOrDefault();
                 return Objcustomer;
             }
             catch
@@ -77,11 +78,11 @@ namespace Bl.Services
                 if (table.CustomerID == 0)
                 {
                     table.CustomerCurrentState = 1;
-                    context.TbCustomer.Add(table);
+                    customerRepository.Add(table);
                 }
                 else
                 {
-                    context.Entry(table).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    customerRepository.Edit(table);
                 }
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
