@@ -1,4 +1,5 @@
 ﻿using Bl.Interfaces;
+using Bl.Repositories;
 using Domains;
 using System;
 using System.Collections.Generic;
@@ -10,13 +11,14 @@ namespace Bl.Services
 {
     public class UserService : IBusinessLayer<TbUser>
     {
-        #region define DbContext
-        private GoldenWorkDbContext context;
+        #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        public UserService(GoldenWorkDbContext ctx, IUnitOfWork _unitOfWork)
+        private readonly UserRepository userRepository;
+
+        public UserService(IUnitOfWork _unitOfWork, UserRepository _userRepository)
         {
-            context = ctx;
             unitOfWork = _unitOfWork;
+            userRepository = _userRepository;
         }
         #endregion
 
@@ -26,7 +28,7 @@ namespace Bl.Services
             try
             {
 
-                var user = GetById(id);
+                var user = ((IBusinessLayer<TbUser>)this).GetById(id);
                 user.UserCurrentState = 0;
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
@@ -44,8 +46,7 @@ namespace Bl.Services
         {
             try
             {
-                var lstUsers = context.TbUser.Where(a => a.UserCurrentState == 1).ToList();
-                return lstUsers;
+                return (List<TbUser>)userRepository.Get_All();
             }
             catch
             {
@@ -59,7 +60,7 @@ namespace Bl.Services
         {
             try
             {
-                var ObjUser = context.TbUser.Where(a => a.UserID == id && a.UserCurrentState == 1).FirstOrDefault();
+                var ObjUser = userRepository.FindBy(a => a.UserID == id && a.UserCurrentState == 1).FirstOrDefault();
                 return ObjUser;
             }
             catch
@@ -77,11 +78,11 @@ namespace Bl.Services
                 if (table.UserID == 0)
                 {
                     table.UserCurrentState = 1;
-                    context.TbUser.Add(table);
+                    userRepository.Add(table);
                 }
                 else
                 {
-                    context.Entry(table).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    userRepository.Edit(table);
                 }
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
