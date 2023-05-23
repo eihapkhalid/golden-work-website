@@ -1,4 +1,5 @@
 ﻿using Bl.Interfaces;
+using Bl.Repositories;
 using Domains;
 using System;
 using System.Collections.Generic;
@@ -10,13 +11,14 @@ namespace Bl.Services
 {
     public class BookingService : IBusinessLayer<TbBooking>
     {
-        #region define DbContext
-        private GoldenWorkDbContext context;
+        #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        public TechnicianService(GoldenWorkDbContext ctx, IUnitOfWork _unitOfWork)
+        private readonly BookingRepository bookingRepository;
+
+        public BookingService(IUnitOfWork _unitOfWork, BookingRepository _bookingRepository)
         {
-            context = ctx;
             unitOfWork = _unitOfWork;
+            bookingRepository = _bookingRepository;
         }
         #endregion
 
@@ -26,7 +28,7 @@ namespace Bl.Services
             try
             {
 
-                var booking = GetById(id);
+                var booking = ((IBusinessLayer<TbBooking>)this).GetById(id);
                 booking.BookingCurrentState = 0;
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
@@ -44,8 +46,7 @@ namespace Bl.Services
         {
             try
             {
-                var lstbooking = context.TbBooking.Where(a => a.BookingCurrentState == 1).ToList();
-                return lstbooking;
+                return (List<TbBooking>)bookingRepository.Get_All();
             }
             catch
             {
@@ -59,7 +60,7 @@ namespace Bl.Services
         {
             try
             {
-                var Objbooking = context.TbBooking.Where(a => a.BookingID == id && a.BookingCurrentState == 1).FirstOrDefault();
+                var Objbooking = bookingRepository.FindBy(a => a.BookingID == id && a.BookingCurrentState == 1).FirstOrDefault();
                 return Objbooking;
             }
             catch
@@ -77,11 +78,11 @@ namespace Bl.Services
                 if (table.BookingID == 0)
                 {
                     table.BookingCurrentState = 1;
-                    context.TbBooking.Add(table);
+                    bookingRepository.Add(table);
                 }
                 else
                 {
-                    context.Entry(table).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    bookingRepository.Edit(table);
                 }
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;

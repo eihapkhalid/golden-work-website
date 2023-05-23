@@ -47,8 +47,6 @@ namespace Bl.Services
             try
             {
                 return (List<TbAbout>)aboutRepository.Get_All();
-                
-
             }
             catch
             {
