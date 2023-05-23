@@ -1,4 +1,5 @@
 ﻿using Bl.Interfaces;
+using Bl.Repositories;
 using Domains;
 using System;
 using System.Collections.Generic;
@@ -10,13 +11,14 @@ namespace Bl.Services
 {
     public class ContactService:IBusinessLayer<TbContact>
     {
-        #region define DbContext
-        private GoldenWorkDbContext context;
+        #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        public TechnicianService(GoldenWorkDbContext ctx, IUnitOfWork _unitOfWork)
+        private readonly ContactRepository contactRepository;
+
+        public ContactService(IUnitOfWork _unitOfWork, ContactRepository _contactRepository)
         {
-            context = ctx;
             unitOfWork = _unitOfWork;
+            contactRepository = _contactRepository;
         }
         #endregion
 
@@ -26,7 +28,7 @@ namespace Bl.Services
             try
             {
 
-                var contact = GetById(id);
+                var contact = ((IBusinessLayer<TbContact>)this).GetById(id);
                 contact.ContactCurrentState = 0;
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
@@ -44,8 +46,7 @@ namespace Bl.Services
         {
             try
             {
-                var lstcontact = context.TbContact.Where(a => a.ContactCurrentState == 1).ToList();
-                return lstcontact;
+                return (List<TbContact>)contactRepository.Get_All();
             }
             catch
             {
@@ -59,7 +60,7 @@ namespace Bl.Services
         {
             try
             {
-                var Objcontact = context.TbContact.Where(a => a.ContactID == id && a.ContactCurrentState == 1).FirstOrDefault();
+                var Objcontact = contactRepository.FindBy(a => a.ContactID == id && a.ContactCurrentState == 1).FirstOrDefault();
                 return Objcontact;
             }
             catch
@@ -77,11 +78,11 @@ namespace Bl.Services
                 if (table.ContactID == 0)
                 {
                     table.ContactCurrentState = 1;
-                    context.TbContact.Add(table);
+                    contactRepository.Add(table);
                 }
                 else
                 {
-                    context.Entry(table).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    contactRepository.Edit(table);
                 }
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;

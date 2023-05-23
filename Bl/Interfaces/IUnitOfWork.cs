@@ -8,11 +8,8 @@ namespace Bl.Interfaces
 {
     public interface IUnitOfWork
     {
-    
-            void Commit();
-            void Dispose();
-            void CommitAsync();
-        }
-
-
+        void Commit();
+        void Dispose();
+        void CommitAsync();
     }
+}
