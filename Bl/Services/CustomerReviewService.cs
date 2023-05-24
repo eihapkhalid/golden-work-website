@@ -13,9 +13,9 @@ namespace Bl.Services
     {
         #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        private readonly CustomerReviewRepository customerReviewRepository;
+        private readonly IGenericRepository<TbCustomerReview> customerReviewRepository;
 
-        public CustomerReviewService(IUnitOfWork _unitOfWork, CustomerReviewRepository _customerReviewRepository)
+        public CustomerReviewService(IUnitOfWork _unitOfWork, IGenericRepository<TbCustomerReview> _customerReviewRepository)
         {
             unitOfWork = _unitOfWork;
             customerReviewRepository = _customerReviewRepository;

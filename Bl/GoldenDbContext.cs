@@ -24,6 +24,9 @@ namespace Bl
         public DbSet<TbTechnician> TbTechnicians { get; set; }
         public DbSet<TbUser> TbUsers { get; set; }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 

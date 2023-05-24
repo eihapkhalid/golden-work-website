@@ -78,3 +78,7 @@ D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkW
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\bin\Debug\net7.0\System.CodeDom.dll
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\bin\Debug\net7.0\Microsoft.Extensions.Hosting.dll
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll

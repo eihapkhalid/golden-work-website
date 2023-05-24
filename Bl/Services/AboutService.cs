@@ -13,9 +13,9 @@ namespace Bl.Services
     {
         #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        private readonly AboutRepository aboutRepository;
+        private readonly IGenericRepository<TbAbout> aboutRepository;
 
-        public AboutService(IUnitOfWork _unitOfWork, AboutRepository _aboutRepository)
+        public AboutService(IUnitOfWork _unitOfWork, IGenericRepository<TbAbout> _aboutRepository)
         {
             unitOfWork = _unitOfWork;
             aboutRepository = _aboutRepository;

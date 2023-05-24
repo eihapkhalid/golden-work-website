@@ -13,9 +13,9 @@ namespace Bl.Services
     {
         #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        private readonly NewsRepository newsRepository;
+        private readonly IGenericRepository<TbNews> newsRepository;
 
-        public NewsService(IUnitOfWork _unitOfWork, NewsRepository _newsRepository)
+        public NewsService(IUnitOfWork _unitOfWork, IGenericRepository<TbNews> _newsRepository)
         {
             unitOfWork = _unitOfWork;
             newsRepository = _newsRepository;

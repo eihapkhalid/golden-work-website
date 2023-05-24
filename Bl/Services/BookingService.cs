@@ -13,9 +13,9 @@ namespace Bl.Services
     {
         #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        private readonly BookingRepository bookingRepository;
+        private readonly IGenericRepository<TbBooking> bookingRepository;
 
-        public BookingService(IUnitOfWork _unitOfWork, BookingRepository _bookingRepository)
+        public BookingService(IUnitOfWork _unitOfWork, IGenericRepository<TbBooking> _bookingRepository)
         {
             unitOfWork = _unitOfWork;
             bookingRepository = _bookingRepository;

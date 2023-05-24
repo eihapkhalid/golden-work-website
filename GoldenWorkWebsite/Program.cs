@@ -19,6 +19,7 @@ namespace GoldenWorkWebsite
 
             #region Add scope 
             //Add scope for TbUser,TbBankAccount,TbPayment (dependcy injection)
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<IGenericRepository<TbUser>, UserRepository>();
             builder.Services.AddScoped<IBusinessLayer<TbUser>, UserService>();
 
@@ -46,7 +47,9 @@ namespace GoldenWorkWebsite
             builder.Services.AddScoped<IGenericRepository<TbAbout>, AboutRepository>();
             builder.Services.AddScoped<IBusinessLayer<TbAbout>, AboutService>();
 
-            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            
+
+
 
             #endregion
 

@@ -13,9 +13,9 @@ namespace Bl.Services
     {
         #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
-        private readonly TechnicianRepository technicianRepository;
+        private readonly IGenericRepository<TbTechnician> technicianRepository;
 
-        public TechnicianService(IUnitOfWork _unitOfWork, TechnicianRepository _technicianRepository)
+        public TechnicianService(IUnitOfWork _unitOfWork, IGenericRepository<TbTechnician> _technicianRepository)
         {
             unitOfWork = _unitOfWork;
             technicianRepository = _technicianRepository;
