@@ -10,6 +10,11 @@ namespace Domains
 {
     public class TbCustomer
     {
+        public TbCustomer()
+        {
+            ICollection<TbBooking> _TbBookings = new HashSet<TbBooking>(); 
+            ICollection<TbCustomerReview> _TbCustomerReviews = new HashSet<TbCustomerReview>();
+        }
         [Key]
         public int CustomerID { get; set; }
 
@@ -52,12 +57,11 @@ namespace Domains
         [Required]
         public int CustomerCurrentState { get; set; }
 
-        //TbCustomer has only user (Update Or Create):
-        public TbUser UpdatedByUser { get; set; }
-        public TbUser CreatedByUser { get; set; }
+        // A single Customer can make multiple bookings :
+        public virtual ICollection<TbBooking> _TbBookings { get; set; }
 
-        // A booking can have multiple customers, and a customer can make multiple bookings.
-        public virtual ICollection<TbBooking> Bookings { get; set; }
+        // A single Customer can make multiple Review :
+        public virtual ICollection<TbCustomerReview> _TbCustomerReviews { get;set; }
 
     }
 }

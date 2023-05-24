@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Bl.Services
 {
-    public class BookingService : IBusinessLayer<TbBooking>
+    public class BookingService  : IBusinessLayer<TbBooking>
     {
         #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;

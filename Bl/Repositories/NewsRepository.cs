@@ -12,8 +12,8 @@ namespace Bl.Repositories
     public class NewsRepository : IGenericRepository<TbNews>
     {
         #region Dependency injection
-        protected readonly GoldenWorkDbContext context;
-        public NewsRepository(GoldenWorkDbContext _context)
+        protected readonly GoldenDbContext context;
+        public NewsRepository(GoldenDbContext _context)
         {
             context = _context;
         }
@@ -52,7 +52,7 @@ namespace Bl.Repositories
         #region GetAll
         public IQueryable<TbNews> Get_All()
         {
-            return context.Set<TbNews>().Where(a => a.AboutCurrentState == 1).ToList(); ;
+            return context.Set<TbNews>().Where(a => a.NewsCurrentState == 1);
         }
         #endregion
     }

@@ -31,12 +31,6 @@ namespace Domains
         [StringLength(50, ErrorMessage ="length must be less than 50")]
         public string UserRole { get; set; }
 
-        [ValidateNever]
-        public int UserUpdate { get; set; }
-
-        [ValidateNever]
-        public int UserCreate { get; set; }
-
         [Required(ErrorMessage = "Update Time date is required.")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
@@ -49,30 +43,5 @@ namespace Domains
 
         [ValidateNever]
         public int UserCurrentState { get; set; }
-
-        //many of users have many proccecs for (Updating Or Creating):
-        public ICollection<TbAbout> AboutUpdatedByUser { get; set; }
-        public ICollection<TbAbout> AboutCreatedByUser { get; set; }
-
-        public ICollection<TbBooking> BookingUpdatedByUser { get; set; }
-        public ICollection<TbBooking> BookingCreatedByUser { get; set; }
-
-        public ICollection<TbContact> ContactUpdatedByUser { get; set; }
-        public ICollection<TbContact> ContactCreatedByUser { get; set; }
-
-        public ICollection<TbCustomer> CustomerUpdatedByUser { get; set; }
-        public ICollection<TbCustomer> CustomerCreatedByUser { get; set; }
-
-        public ICollection<TbCustomerReview> CustomerReviewUpdatedByUser { get; set; }
-        public ICollection<TbCustomerReview> CustomerReviewCreatedByUser { get; set; }
-
-        public ICollection<TbNews> NewsUpdatedByUser { get; set; }
-        public ICollection<TbNews> NewsCreatedByUser { get; set; }
-
-        public ICollection<TbService> ServiceUpdatedByUser { get; set; }
-        public ICollection<TbService> ServiceCreatedByUser { get; set; }
-
-        public ICollection<TbTechnician> TechnicianUpdatedByUser { get; set; }
-        public ICollection<TbTechnician> TechnicianCreatedByUser { get; set; }
     }
 }

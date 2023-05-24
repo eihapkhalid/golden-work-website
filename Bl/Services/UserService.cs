@@ -90,9 +90,8 @@ namespace Bl.Services
             catch
             {
                 return false;
-            } 
-            #endregion
-
+            }
         }
+        #endregion
     }
-}
+} 

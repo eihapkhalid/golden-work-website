@@ -10,15 +10,14 @@ namespace Domains
 {
     public class TbBooking
     {
+        public TbBooking()
+        {
+            TbCustomer _TbCustomer = new TbCustomer();
+            TbService _TbService = new TbService();
+        }
         [Key]
         public int BookingID { get; set; }
-
-        [ValidateNever]
-        public int CustomerID { get; set; }
-
-        [ValidateNever]
-        public int ServiceID { get; set; }
-
+        
         [Required(ErrorMessage = "Booking date is required.")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
@@ -47,12 +46,13 @@ namespace Domains
         [Required]
         public int BookingCurrentState { get; set; }
 
-        //TbBooking has only user (Update Or Create):
-        public TbUser UpdatedByUser { get; set; }
-        public TbUser CreatedByUser { get; set; }
-
-        //TbBooking has relation  :
-        public virtual TbCustomer Customer { get; set; }
-        public virtual TbService Service { get; set; }
+        // Each booking belongs to only one customer  :
+        public int CustomerID { get; set; }
+        public virtual TbCustomer _TbCustomer { get; set; }
+        // Each booking belongs to only one Service  :
+        public int ServiceID { get; set; }
+        public virtual TbService _TbService { get; set; }
     }
 }
+
+

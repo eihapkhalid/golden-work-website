@@ -10,6 +10,10 @@ namespace Domains
 {
     public class TbService
     {
+        public TbService()
+        {
+            ICollection<TbBooking> _TbBookings = new HashSet<TbBooking>();
+        }
         [Key]
         public int ServiceID { get; set; }
 
@@ -49,12 +53,8 @@ namespace Domains
         [ValidateNever]
         public int ServiceCurrentState { get; set; }
 
-        //TbService has only user (Update Or Create):
-        public TbUser UpdatedByUser { get; set; }
-        public TbUser CreatedByUser { get; set; }
-
-        // A booking can have multiple services, and a service can be booked multiple times.
-        public virtual ICollection<TbBooking> Bookings { get; set; }
+        // A single Service can make multiple bookings :
+        public virtual ICollection<TbBooking> _TbBookings { get; set; }
 
 
     }

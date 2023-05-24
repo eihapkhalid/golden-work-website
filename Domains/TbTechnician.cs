@@ -55,9 +55,5 @@ namespace Domains
 
         [ValidateNever]
         public int TechnicianCurrentState { get; set; }
-
-        //TbTechnician has only user (Update Or Create):
-        public TbUser UpdatedByUser { get; set; }
-        public TbUser CreatedByUser { get; set; }
     }
 }

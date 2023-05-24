@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 namespace Bl.Repositories
 {
      
-    public class UnitOfWork : IUnitOfWork
+    public class UnitOfWork  : IUnitOfWork
     {
-        private readonly GoldenWorkDbContext _context;
+    private readonly GoldenDbContext _context;
     private bool disposed = false;
 
-    public UnitOfWork(GoldenWorkDbContext context)
+    public UnitOfWork(GoldenDbContext context)
     {
         _context = context;
     }

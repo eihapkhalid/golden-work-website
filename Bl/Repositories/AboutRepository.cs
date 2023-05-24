@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Bl.Repositories
 {
-    public class AboutRepository :IGenericRepository<TbAbout>
+    public class AboutRepository  :IGenericRepository<TbAbout>
     {
         #region Dependency injection
-        protected readonly GoldenWorkDbContext context;
-        public AboutRepository(GoldenWorkDbContext _context)
+        protected readonly GoldenDbContext context;
+        public AboutRepository(GoldenDbContext _context)
         {
             context = _context;
         }
@@ -52,7 +52,7 @@ namespace Bl.Repositories
         #region GetAll
         public IQueryable<TbAbout> Get_All()
         {
-            return context.Set<TbAbout>().Where(a => a.AboutCurrentState == 1).ToList(); ;
+            return (IQueryable<TbAbout>)context.Set<TbAbout>().Where(a => a.AboutCurrentState == 1);
         }
         #endregion
     }

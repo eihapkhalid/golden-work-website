@@ -12,8 +12,8 @@ namespace Bl.Repositories
     public class UserRepository : IGenericRepository<TbUser>
     {
         #region Dependency injection
-        protected readonly GoldenWorkDbContext context;
-        public UserRepository(GoldenWorkDbContext _context)
+        protected readonly GoldenDbContext context;
+        public UserRepository(GoldenDbContext _context)
         {
             context = _context;
         }
@@ -52,7 +52,7 @@ namespace Bl.Repositories
         #region GetAll
         public IQueryable<TbUser> Get_All()
         {
-            return context.Set<TbUser>().Where(a => a.AboutCurrentState == 1).ToList(); ;
+            return context.Set<TbUser>().Where(a => a.UserCurrentState == 1);
         }
         #endregion
     }

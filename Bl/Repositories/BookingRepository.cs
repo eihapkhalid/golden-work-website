@@ -12,8 +12,8 @@ namespace Bl.Repositories
     public class BookingRepository : IGenericRepository<TbBooking>
     {
         #region Dependency injection
-        protected readonly GoldenWorkDbContext context;
-        public BookingRepository(GoldenWorkDbContext _context)
+        protected readonly GoldenDbContext context;
+        public BookingRepository(GoldenDbContext _context)
         {
             context = _context;
         }
@@ -50,7 +50,7 @@ namespace Bl.Repositories
         #region GetAll
         public IQueryable<TbBooking> Get_All()
         {
-            return context.Set<TbBooking>().Where(a => a.AboutCurrentState == 1).ToList(); ;
+            return context.Set<TbBooking>().Where(a => a.BookingCurrentState == 1);
         }
         #endregion
     }

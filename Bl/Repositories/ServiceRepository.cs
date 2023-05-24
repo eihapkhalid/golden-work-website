@@ -12,8 +12,8 @@ namespace Bl.Repositories
     public class ServiceRepository : IGenericRepository<TbService>
     {
         #region Dependency injection
-        protected readonly GoldenWorkDbContext context;
-        public ServiceRepository(GoldenWorkDbContext _context)
+        protected readonly GoldenDbContext context;
+        public ServiceRepository(GoldenDbContext _context)
         {
             context = _context;
         }
@@ -52,7 +52,7 @@ namespace Bl.Repositories
         #region GetAll
         public IQueryable<TbService> Get_All()
         {
-            return context.Set<TbService>().Where(a => a.AboutCurrentState == 1).ToList(); ;
+            return context.Set<TbService>().Where(a => a.ServiceCurrentState == 1);
         }
         #endregion
     

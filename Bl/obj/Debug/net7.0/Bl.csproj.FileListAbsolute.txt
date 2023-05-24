@@ -3,3 +3,15 @@ D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debu
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.AssemblyInfoInputs.cache
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.AssemblyInfo.cs
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.csproj.CoreCompileInputs.cache
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\bin\Debug\net7.0\Bl.deps.json
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\bin\Debug\net7.0\Bl.dll
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\bin\Debug\net7.0\Bl.pdb
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\bin\Debug\net7.0\Domains.dll
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\bin\Debug\net7.0\Domains.pdb
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.csproj.CopyComplete
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.dll
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\refint\Bl.dll
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.pdb
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\ref\Bl.dll
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\bin\Debug\net7.0\Bl.runtimeconfig.json
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\Bl\obj\Debug\net7.0\Bl.genruntimeconfig.cache

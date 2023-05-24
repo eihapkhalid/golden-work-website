@@ -40,9 +40,5 @@ namespace Domains
 
         [ValidateNever]
         public int NewsCurrentlyFeatured { get; set; }
-
-        //TbNews has only user (Update Or Create):
-        public TbUser UpdatedByUser { get; set; }
-        public TbUser CreatedByUser { get; set; }
     }
 }

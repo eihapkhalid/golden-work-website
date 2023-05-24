@@ -79,10 +79,6 @@ namespace Domains
         public DateTime UserCreateTime { get; set; }
         [Required]
         public int AboutCurrentState { get; set; }
-
-        //TbAbout has only user (Update Or Create):
-        public TbUser UpdatedByUser { get; set; }
-        public TbUser CreatedByUser { get; set; }
         
     }
 }

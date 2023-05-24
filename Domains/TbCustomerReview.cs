@@ -10,10 +10,14 @@ namespace Domains
 {
     public class TbCustomerReview
     {
+        public TbCustomerReview()
+        {
+            TbCustomer _TbCustomer = new TbCustomer();
+        }
         [Key]
         public int CustomerReviewID { get; set; }
         [ValidateNever]
-        public string CustomerID { get; set;}
+        
 
         [Required(ErrorMessage = "Customer Review Text is Required")]
         [StringLength(200, ErrorMessage = "Length must be less than 200")]
@@ -42,8 +46,7 @@ namespace Domains
         [Required]
         public int CustomerReviewCurrentState { get; set; }
 
-        //TbCustomerReview has only user (Update Or Create):
-        public TbUser UpdatedByUser { get; set; }
-        public TbUser CreatedByUser { get; set; }
+        public int CustomerID { get; set; }
+        public virtual TbCustomer _TbCustomer { get; set; }
     }
 }

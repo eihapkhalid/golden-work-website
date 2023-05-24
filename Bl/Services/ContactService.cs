@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Bl.Services
 {
-    public class ContactService:IBusinessLayer<TbContact>
+    public class ContactService :IBusinessLayer<TbContact>
     {
         #region define unitOfWork
         private readonly IUnitOfWork unitOfWork;
