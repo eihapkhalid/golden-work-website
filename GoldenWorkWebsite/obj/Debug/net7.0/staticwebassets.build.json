@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/gDCZU4VrVAypfaiWOZlASbzjP4F/coO5OROMPVMPJo=",
+  "Hash": "IPW4+i4kO4iK4veAAFAAiBIquUQSsLyQMjjSJTB7/ao=",
   "Source": "GoldenWorkWebsite",
   "BasePath": "_content/GoldenWorkWebsite",
   "Mode": "Default",
@@ -117,23 +117,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\11.jpg"
-    },
-    {
-      "Identity": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\11.jpg.crdownload",
-      "SourceId": "GoldenWorkWebsite",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\",
-      "BasePath": "_content/GoldenWorkWebsite",
-      "RelativePath": "img/11.jpg.crdownload",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\11.jpg.crdownload"
     },
     {
       "Identity": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\1122.avif",
