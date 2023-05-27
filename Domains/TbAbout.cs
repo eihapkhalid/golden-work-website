@@ -79,14 +79,6 @@ namespace Domains
         public DateTime UserCreateTime { get; set; }
 
         [Required]
-        [StringLength(200, ErrorMessage = "Length must be less than 200")]
-        public string AboutImageBig { get; set; }
-
-        [Required]
-        [StringLength(200, ErrorMessage = "Length must be less than 200")]
-        public string AboutImageSmal { get; set; }
-
-        [Required]
         public int AboutCurrentState { get; set; }
         
     }

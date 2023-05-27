@@ -5006,19 +5006,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\Tech_Ports\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\Bl\\Bl.csproj",
+      "projectUniqueName": "D:\\c#\\web\\golden-work-website\\Bl\\Bl.csproj",
       "projectName": "Bl",
-      "projectPath": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\Bl\\Bl.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\Bl\\obj\\",
+      "projectPath": "D:\\c#\\web\\golden-work-website\\Bl\\Bl.csproj",
+      "packagesPath": "C:\\Users\\Tech_Ports\\.nuget\\packages\\",
+      "outputPath": "D:\\c#\\web\\golden-work-website\\Bl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tech_Ports\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5032,8 +5032,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\Domains\\Domains.csproj": {
-              "projectPath": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\Domains\\Domains.csproj"
+            "D:\\c#\\web\\golden-work-website\\Domains\\Domains.csproj": {
+              "projectPath": "D:\\c#\\web\\golden-work-website\\Domains\\Domains.csproj"
             }
           }
         }
@@ -5083,7 +5083,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

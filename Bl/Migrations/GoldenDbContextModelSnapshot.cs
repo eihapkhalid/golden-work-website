@@ -126,8 +126,23 @@ namespace Bl.Migrations
                     b.Property<DateTime>("BookingDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("BookingEmail")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
                     b.Property<DateTime>("BookingEndDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("BookingFirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("BookingServiceName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<DateTime>("BookingStartDate")
                         .HasColumnType("datetime2");
@@ -286,6 +301,40 @@ namespace Bl.Migrations
                     b.HasIndex("CustomerID");
 
                     b.ToTable("TbCustomerReviews");
+                });
+
+            modelBuilder.Entity("Domains.TbMainAd", b =>
+                {
+                    b.Property<int>("mainAdID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("mainAdID"));
+
+                    b.Property<int>("MainAdCurrentState")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MainAdCurrentlyFeatured")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MainAdImageBig")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("MainAdImageSmall")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("MainAdText")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("mainAdID");
+
+                    b.ToTable("TbMainAds");
                 });
 
             modelBuilder.Entity("Domains.TbNews", b =>

@@ -78,6 +78,10 @@ namespace Bl.Services
                 if (table.BookingID == 0)
                 {
                     table.BookingCurrentState = 1;
+                    table.BookingEndDate = DateTime.Now;
+                    table.BookingStartDate = DateTime.Now;
+                    table.UserUpdateTime = DateTime.Now;
+                    table.UserUpdateTimee = DateTime.Now;
                     bookingRepository.Add(table);
                 }
                 else

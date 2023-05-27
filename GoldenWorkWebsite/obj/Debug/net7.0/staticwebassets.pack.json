@@ -1,551 +1,551 @@
 {
   "Files": [
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GoldenWorkWebsite.bundle.scp.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GoldenWorkWebsite.bundle.scp.css",
       "PackagePath": "staticwebassets\\GoldenWorkWebsite.bundle.scp.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\css\\style.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\101.webp",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\101.webp",
       "PackagePath": "staticwebassets\\img\\101.webp"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\11.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\11.jpg",
       "PackagePath": "staticwebassets\\img\\11.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\1122.avif",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\1122.avif",
       "PackagePath": "staticwebassets\\img\\1122.avif"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\1122.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\1122.jpg",
       "PackagePath": "staticwebassets\\img\\1122.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\123.png",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\123.png",
       "PackagePath": "staticwebassets\\img\\123.png"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\1234.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\1234.jpg",
       "PackagePath": "staticwebassets\\img\\1234.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\1234.png",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\1234.png",
       "PackagePath": "staticwebassets\\img\\1234.png"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\12345.png",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\12345.png",
       "PackagePath": "staticwebassets\\img\\12345.png"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\about.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\about.jpg",
       "PackagePath": "staticwebassets\\img\\about.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\carousel-1.png",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\carousel-1.png",
       "PackagePath": "staticwebassets\\img\\carousel-1.png"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\carousel-2.png",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\carousel-2.png",
       "PackagePath": "staticwebassets\\img\\carousel-2.png"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\carousel-bg-1.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\carousel-bg-1.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-bg-1.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\carousel-bg-2.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\carousel-bg-2.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-bg-2.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\service-1.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\service-1.jpg",
       "PackagePath": "staticwebassets\\img\\service-1.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\service-2.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\service-2.jpg",
       "PackagePath": "staticwebassets\\img\\service-2.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\service-3.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\service-3.jpg",
       "PackagePath": "staticwebassets\\img\\service-3.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\service-4.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\service-4.jpg",
       "PackagePath": "staticwebassets\\img\\service-4.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\team-1.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\team-1.jpg",
       "PackagePath": "staticwebassets\\img\\team-1.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\team-2.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\team-2.jpg",
       "PackagePath": "staticwebassets\\img\\team-2.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\team-3.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\team-3.jpg",
       "PackagePath": "staticwebassets\\img\\team-3.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\team-4.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\team-4.jpg",
       "PackagePath": "staticwebassets\\img\\team-4.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\testimonial-1.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\testimonial-2.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\testimonial-3.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\testimonial-3.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\testimonial-4.jpg",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\img\\testimonial-4.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\js\\main.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\animate\\animate.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\animate\\animate.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\animate\\animate.min.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\animate\\animate.min.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\counterup\\counterup.min.js",
       "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\easing\\easing.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\easing\\easing.min.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\owlcarousel"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\waypoints\\links.php",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\wow\\wow.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\wow\\wow.js",
       "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\lib\\wow\\wow.min.js",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\lib\\wow\\wow.min.js",
       "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "D:\\c#\\web\\golden-work-website\\GoldenWorkWebsite\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {

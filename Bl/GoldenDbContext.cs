@@ -23,6 +23,7 @@ namespace Bl
         public DbSet<TbService> TbServices { get; set; }
         public DbSet<TbTechnician> TbTechnicians { get; set; }
         public DbSet<TbUser> TbUsers { get; set; }
+        public DbSet<TbMainAd> TbMainAds { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

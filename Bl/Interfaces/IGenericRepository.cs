@@ -9,7 +9,7 @@ namespace Bl.Interfaces
 {
     public interface  IGenericRepository<T>
     {
-        IQueryable<T> Get_All();
+        List<T> Get_All();
         IQueryable<T> FindBy(Expression<Func<T, bool>> predicate);
         void Add(T entity);
         void Delete(T entity);

@@ -17,7 +17,20 @@ namespace Domains
         }
         [Key]
         public int BookingID { get; set; }
-        
+
+        [Required(ErrorMessage = "Service Name  is Required")]
+        [StringLength(50, ErrorMessage = "Length must be less than 50")]
+        public string BookingServiceName { get; set; }
+
+        [Required(ErrorMessage = "First Name  is Required")]
+        [StringLength(50, ErrorMessage = "Length must be less than 50")]
+        public string BookingFirstName { get; set; }
+
+        [EmailAddress]
+        [Required(ErrorMessage = "Email is Required")]
+        [StringLength(50, ErrorMessage = "Length must be less than 50")]
+        public string BookingEmail { get; set; }
+
         [Required(ErrorMessage = "Booking date is required.")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
