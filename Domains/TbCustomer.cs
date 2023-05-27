@@ -34,7 +34,8 @@ namespace Domains
         [Required(ErrorMessage = "Phone is required.")]
         [RegularExpression("^[0-9]{10}$")]
         [StringLength(20, MinimumLength = 8, ErrorMessage = "Phone must be between 9 and 50 characters.")]
-        public int CustomerPhone { get; set;}
+        public string CustomerPhone { get; set; }
+
 
         [Required(ErrorMessage = "Address is Required")]
         [StringLength(50, ErrorMessage = "Length must be less than 50")]

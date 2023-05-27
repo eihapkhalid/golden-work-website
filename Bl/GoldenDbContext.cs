@@ -23,6 +23,7 @@ namespace Bl
         public DbSet<TbService> TbServices { get; set; }
         public DbSet<TbTechnician> TbTechnicians { get; set; }
         public DbSet<TbUser> TbUsers { get; set; }
+        public DbSet<TbMainAd> TbMainAds { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -30,15 +31,15 @@ namespace Bl
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            modelBuilder.Entity<TbCustomer>()
+           /* modelBuilder.Entity<TbCustomer>()
                     .HasMany(c => c._TbBookings)
                     .WithOne(b => b._TbCustomer)
-                    .HasForeignKey(b => b.CustomerID);
+                    .HasForeignKey(b => b.CustomerID);*/
 
-            modelBuilder.Entity<TbService>()
+            /*modelBuilder.Entity<TbService>()
                     .HasMany(a => a._TbBookings)
                     .WithOne(b => b._TbService)
-                    .HasForeignKey(c => c.ServiceID);
+                    .HasForeignKey(c => c.ServiceID);*/
 
             modelBuilder.Entity<TbCustomer>()
                     .HasMany(a => a._TbCustomerReviews)

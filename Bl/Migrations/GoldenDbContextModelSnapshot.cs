@@ -109,7 +109,7 @@ namespace Bl.Migrations
 
                     b.HasKey("AboutID");
 
-                    b.ToTable("TbAbouts");
+                    b.ToTable("TbAbouts", (string)null);
                 });
 
             modelBuilder.Entity("Domains.TbBooking", b =>
@@ -126,16 +126,28 @@ namespace Bl.Migrations
                     b.Property<DateTime>("BookingDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("BookingEmail")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
                     b.Property<DateTime>("BookingEndDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("BookingFirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("BookingServiceName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<DateTime>("BookingStartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CustomerID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ServiceID")
+                    b.Property<int?>("TbCustomerCustomerID")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("UserUpdateTime")
@@ -146,11 +158,9 @@ namespace Bl.Migrations
 
                     b.HasKey("BookingID");
 
-                    b.HasIndex("CustomerID");
+                    b.HasIndex("TbCustomerCustomerID");
 
-                    b.HasIndex("ServiceID");
-
-                    b.ToTable("TbBookings");
+                    b.ToTable("TbBookings", (string)null);
                 });
 
             modelBuilder.Entity("Domains.TbContact", b =>
@@ -191,7 +201,7 @@ namespace Bl.Migrations
 
                     b.HasKey("ContactID");
 
-                    b.ToTable("TbContacts");
+                    b.ToTable("TbContacts", (string)null);
                 });
 
             modelBuilder.Entity("Domains.TbCustomer", b =>
@@ -225,9 +235,10 @@ namespace Bl.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<int>("CustomerPhone")
+                    b.Property<string>("CustomerPhone")
+                        .IsRequired()
                         .HasMaxLength(20)
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("CustomerSatisfied")
                         .IsRequired()
@@ -242,7 +253,7 @@ namespace Bl.Migrations
 
                     b.HasKey("CustomerID");
 
-                    b.ToTable("TbCustomers");
+                    b.ToTable("TbCustomers", (string)null);
                 });
 
             modelBuilder.Entity("Domains.TbCustomerReview", b =>
@@ -285,7 +296,41 @@ namespace Bl.Migrations
 
                     b.HasIndex("CustomerID");
 
-                    b.ToTable("TbCustomerReviews");
+                    b.ToTable("TbCustomerReviews", (string)null);
+                });
+
+            modelBuilder.Entity("Domains.TbMainAd", b =>
+                {
+                    b.Property<int>("mainAdID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("mainAdID"));
+
+                    b.Property<int>("MainAdCurrentState")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MainAdCurrentlyFeatured")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MainAdImageBig")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("MainAdImageSmall")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("MainAdText")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("mainAdID");
+
+                    b.ToTable("TbMainAds", (string)null);
                 });
 
             modelBuilder.Entity("Domains.TbNews", b =>
@@ -323,7 +368,7 @@ namespace Bl.Migrations
 
                     b.HasKey("NewsID");
 
-                    b.ToTable("TbNews");
+                    b.ToTable("TbNews", (string)null);
                 });
 
             modelBuilder.Entity("Domains.TbService", b =>
@@ -371,7 +416,7 @@ namespace Bl.Migrations
 
                     b.HasKey("ServiceID");
 
-                    b.ToTable("TbServices");
+                    b.ToTable("TbServices", (string)null);
                 });
 
             modelBuilder.Entity("Domains.TbTechnician", b =>
@@ -426,7 +471,7 @@ namespace Bl.Migrations
 
                     b.HasKey("TechnicianID");
 
-                    b.ToTable("TbTechnicians");
+                    b.ToTable("TbTechnicians", (string)null);
                 });
 
             modelBuilder.Entity("Domains.TbUser", b =>
@@ -468,26 +513,14 @@ namespace Bl.Migrations
 
                     b.HasKey("UserID");
 
-                    b.ToTable("TbUsers");
+                    b.ToTable("TbUsers", (string)null);
                 });
 
             modelBuilder.Entity("Domains.TbBooking", b =>
                 {
-                    b.HasOne("Domains.TbCustomer", "_TbCustomer")
+                    b.HasOne("Domains.TbCustomer", null)
                         .WithMany("_TbBookings")
-                        .HasForeignKey("CustomerID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Domains.TbService", "_TbService")
-                        .WithMany("_TbBookings")
-                        .HasForeignKey("ServiceID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("_TbCustomer");
-
-                    b.Navigation("_TbService");
+                        .HasForeignKey("TbCustomerCustomerID");
                 });
 
             modelBuilder.Entity("Domains.TbCustomerReview", b =>
@@ -506,11 +539,6 @@ namespace Bl.Migrations
                     b.Navigation("_TbBookings");
 
                     b.Navigation("_TbCustomerReviews");
-                });
-
-            modelBuilder.Entity("Domains.TbService", b =>
-                {
-                    b.Navigation("_TbBookings");
                 });
 #pragma warning restore 612, 618
         }

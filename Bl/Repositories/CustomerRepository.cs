@@ -50,9 +50,9 @@ namespace Bl.Repositories
         #endregion
 
         #region GetAll
-        public IQueryable<TbCustomer> Get_All()
+        public List<TbCustomer> Get_All()
         {
-            return context.Set<TbCustomer>().Where(a => a.CustomerCurrentState == 1) ;
+            return context.Set<TbCustomer>().Where(a => a.CustomerCurrentState == 1).ToList() ;
         }
         #endregion
     }

@@ -47,7 +47,8 @@ namespace GoldenWorkWebsite
             builder.Services.AddScoped<IGenericRepository<TbAbout>, AboutRepository>();
             builder.Services.AddScoped<IBusinessLayer<TbAbout>, AboutService>();
 
-            
+            builder.Services.AddScoped<IGenericRepository<TbMainAd>, MainAdRepository>();
+            builder.Services.AddScoped<IBusinessLayer<TbMainAd>, MainAdService>();
 
 
 

@@ -78,13 +78,18 @@ namespace Bl.Services
                 if (table.BookingID == 0)
                 {
                     table.BookingCurrentState = 1;
+                    table.BookingStartDate = DateTime.Now;
+                    table.UserUpdateTime = DateTime.Now;
+                    table.UserUpdateTimee = DateTime.Now;
+                    table.BookingEndDate = DateTime.Now;
+
                     bookingRepository.Add(table);
                 }
                 else
                 {
                     bookingRepository.Edit(table);
                 }
-                unitOfWork.Commit(); //context.SaveChanges();
+                unitOfWork.Commit();
                 return true;
             }
             catch
@@ -93,5 +98,6 @@ namespace Bl.Services
             }
         }
         #endregion
+
     }
 }

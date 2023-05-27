@@ -65,6 +65,22 @@
       "PackagePath": "staticwebassets\\img\\carousel-bg-2.jpg"
     },
     {
+      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\ms1.jpg",
+      "PackagePath": "staticwebassets\\img\\ms1.jpg"
+    },
+    {
+      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\ms1.png",
+      "PackagePath": "staticwebassets\\img\\ms1.png"
+    },
+    {
+      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\ms2.png",
+      "PackagePath": "staticwebassets\\img\\ms2.png"
+    },
+    {
+      "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\ms3.png",
+      "PackagePath": "staticwebassets\\img\\ms3.png"
+    },
+    {
       "Id": "D:\\USB Drive\\ايهاب\\c#\\proffitional\\WEB\\NORMAL\\GoldenWorkWebsite\\GoldenWorkWebsite\\wwwroot\\img\\service-1.jpg",
       "PackagePath": "staticwebassets\\img\\service-1.jpg"
     },

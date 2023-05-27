@@ -12,7 +12,7 @@ namespace Domains
     {
         public TbService()
         {
-            ICollection<TbBooking> _TbBookings = new HashSet<TbBooking>();
+          //  ICollection<TbBooking> _TbBookings = new HashSet<TbBooking>();
         }
         [Key]
         public int ServiceID { get; set; }
@@ -33,9 +33,9 @@ namespace Domains
         [Range(0.000000000001, 9999999999.99, ErrorMessage = "Technician Salary must be between 0.000000000001 and 9999999999.99.")]
         public decimal ServicePrice { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Service Image is Required")]
         [StringLength(200, ErrorMessage = "Length must be less than 200")]
-        public string ServiceImage { get; set;}
+        public string ServiceImage { get; set; }
 
         [Required(ErrorMessage = "Update Time date is required.")]
         [DataType(DataType.Date)]
@@ -54,7 +54,7 @@ namespace Domains
         public int ServiceCurrentState { get; set; }
 
         // A single Service can make multiple bookings :
-        public virtual ICollection<TbBooking> _TbBookings { get; set; }
+       // public virtual ICollection<TbBooking> _TbBookings { get; set; }
 
 
     }

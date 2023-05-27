@@ -48,9 +48,9 @@ namespace Bl.Repositories
         #endregion
 
         #region GetAll
-        public IQueryable<TbBooking> Get_All()
+        public List<TbBooking> Get_All()
         {
-            return context.Set<TbBooking>().Where(a => a.BookingCurrentState == 1);
+            return context.Set<TbBooking>().Where(a => a.BookingCurrentState == 1).ToList();
         }
         #endregion
     }

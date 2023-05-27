@@ -12,12 +12,25 @@ namespace Domains
     {
         public TbBooking()
         {
-            TbCustomer _TbCustomer = new TbCustomer();
-            TbService _TbService = new TbService();
+           // TbCustomer _TbCustomer = new TbCustomer();
+           // TbService _TbService = new TbService();
         }
         [Key]
         public int BookingID { get; set; }
-        
+
+        [Required(ErrorMessage = "Service Name  is Required")]
+        [StringLength(50, ErrorMessage = "Length must be less than 50")]
+        public string BookingServiceName { get; set; }
+
+        [Required(ErrorMessage = "First Name  is Required")]
+        [StringLength(50, ErrorMessage = "Length must be less than 50")]
+        public string BookingFirstName { get; set; }
+
+        [EmailAddress]
+        [Required(ErrorMessage = "Email is Required")]
+        [StringLength(50, ErrorMessage = "Length must be less than 50")]
+        public string BookingEmail { get; set; }
+
         [Required(ErrorMessage = "Booking date is required.")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
@@ -46,12 +59,15 @@ namespace Domains
         [Required]
         public int BookingCurrentState { get; set; }
 
-        // Each booking belongs to only one customer  :
-        public int CustomerID { get; set; }
-        public virtual TbCustomer _TbCustomer { get; set; }
-        // Each booking belongs to only one Service  :
-        public int ServiceID { get; set; }
-        public virtual TbService _TbService { get; set; }
+        /* 
+         //Each booking belongs to only one customer  :
+         public int CustomerID { get; set; }
+         public virtual TbCustomer _TbCustomer { get; set; }
+
+         //Each booking belongs to only one Service  :
+         public int ServiceID { get; set; }
+         public virtual TbService _TbService { get; set; }
+        */
     }
 }
 
