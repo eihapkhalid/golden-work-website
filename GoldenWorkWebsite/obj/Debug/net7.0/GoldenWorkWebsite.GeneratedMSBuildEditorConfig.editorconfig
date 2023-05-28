@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/Booking/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/Contact/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,12 +32,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/Service/Service.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxTZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/Technician/Technician.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhblxUZWNobmljaWFuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/_ViewImports.cshtml]

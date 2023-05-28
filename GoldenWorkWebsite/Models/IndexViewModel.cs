@@ -10,6 +10,8 @@ namespace GoldenWorkWebsite.Models
         public List <TbTechnician> lstTbTechnician { get; set; }
         public List<TbMainAd> lstTbMainAd { get; set; }
         public TbBooking inputTbBookings { get; set; }
+        public TbContact inputTbContacts { get; set; }
+
 
     }
 }

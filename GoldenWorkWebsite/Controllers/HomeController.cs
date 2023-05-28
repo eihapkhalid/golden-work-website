@@ -54,19 +54,19 @@ namespace GoldenWorkWebsite.Controllers
         [ActionName("Save")]
         public IActionResult Save(IndexViewModel viewModel)
         {
-            viewModel.lstTbAbouts = oAboutService.GetAll();
-            viewModel.lstTbServices = oServiceService.GetAll();
-            viewModel.lstTbCustomer = ocustomerService.GetAll();
-            viewModel.lstTbTechnician = otechnicianService.GetAll();
-            viewModel.lstTbCustomerReviews = ocustomerReviewnService.GetAll();
-            viewModel.lstTbMainAd = omainAdService.GetAll();
-
+            /*
             if (!ModelState.IsValid)
             {
+                viewModel.lstTbAbouts = oAboutService.GetAll();
+                viewModel.lstTbServices = oServiceService.GetAll();
+                viewModel.lstTbCustomer = ocustomerService.GetAll();
+                viewModel.lstTbTechnician = otechnicianService.GetAll();
+                viewModel.lstTbCustomerReviews = ocustomerReviewnService.GetAll();
+                viewModel.lstTbMainAd = omainAdService.GetAll();
                 viewModel.inputTbBookings = new TbBooking();
                 return View("Index", viewModel);
             }
-
+            */
             obookingService.Save(viewModel.inputTbBookings);
             unitOfWork.Dispose();
             return RedirectToAction("Index");

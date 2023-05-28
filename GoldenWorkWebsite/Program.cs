@@ -78,9 +78,9 @@ namespace GoldenWorkWebsite
             {
                 endpoints.MapControllerRoute(
                     name: "admin",
-                    pattern: "{area:exists}/{controller=PaymentAdmin}/{action=Index}");
+                    pattern: "{area:exists}/{controller=HomeAdmin}/{action=Index}");
                 endpoints.MapControllerRoute(
-                    name: "default",
+                    name:    "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
             #endregion

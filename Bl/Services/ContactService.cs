@@ -78,6 +78,8 @@ namespace Bl.Services
                 if (table.ContactID == 0)
                 {
                     table.ContactCurrentState = 1;
+                    table.UserCreateTime = DateTime.Now;
+                    table.UserUpdateTime = DateTime.Now;
                     contactRepository.Add(table);
                 }
                 else
