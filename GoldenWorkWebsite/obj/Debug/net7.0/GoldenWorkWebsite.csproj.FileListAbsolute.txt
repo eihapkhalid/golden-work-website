@@ -26,7 +26,6 @@ D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkW
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\obj\Debug\net7.0\staticwebassets.pack.json
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\obj\Debug\net7.0\staticwebassets.build.json
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\obj\Debug\net7.0\staticwebassets.development.json
-D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\obj\Debug\net7.0\scopedcss\bundle\GoldenWorkWebsite.styles.css
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\obj\Debug\net7.0\scopedcss\projectbundle\GoldenWorkWebsite.bundle.scp.css
 D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\obj\Debug\net7.0\GoldenWorkWebsite.csproj.CopyComplete
@@ -165,3 +164,5 @@ D:\c#\web\golden-work-website\GoldenWorkWebsite\obj\Debug\net7.0\refint\GoldenWo
 D:\c#\web\golden-work-website\GoldenWorkWebsite\obj\Debug\net7.0\GoldenWorkWebsite.pdb
 D:\c#\web\golden-work-website\GoldenWorkWebsite\obj\Debug\net7.0\GoldenWorkWebsite.genruntimeconfig.cache
 D:\c#\web\golden-work-website\GoldenWorkWebsite\obj\Debug\net7.0\ref\GoldenWorkWebsite.dll
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

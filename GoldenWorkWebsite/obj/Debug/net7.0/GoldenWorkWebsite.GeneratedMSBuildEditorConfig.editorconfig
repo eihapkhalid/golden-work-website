@@ -16,6 +16,46 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\USB Drive\ايهاب\c#\proffitional\WEB\NORMAL\GoldenWorkWebsite\GoldenWorkWebsite
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/Service/Service.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxTZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/Technician/Technician.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVjaG5pY2lhblxUZWNobmljaWFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/User/UserEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxVc2VyRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/User/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/About/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/Booking/Booking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -55,6 +95,10 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-susu8ib839
 
 [D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

@@ -78,7 +78,7 @@ namespace GoldenWorkWebsite
             {
                 endpoints.MapControllerRoute(
                     name: "admin",
-                    pattern: "{area:exists}/{controller=HomeAdmin}/{action=Index}");
+                    pattern: "{area:exists}/{controller=user}/{action=userList}");
                 endpoints.MapControllerRoute(
                     name:    "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

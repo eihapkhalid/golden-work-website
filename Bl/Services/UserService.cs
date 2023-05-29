@@ -78,10 +78,13 @@ namespace Bl.Services
                 if (table.UserID == 0)
                 {
                     table.UserCurrentState = 1;
+                    table.UserCreateTime= DateTime.Now;
+                    
                     userRepository.Add(table);
                 }
                 else
                 {
+                    table.UserUpdateTime = DateTime.Now;
                     userRepository.Edit(table);
                 }
                 unitOfWork.Commit(); //context.SaveChanges();
