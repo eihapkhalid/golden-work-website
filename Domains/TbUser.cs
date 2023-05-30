@@ -10,6 +10,10 @@ namespace Domains
 {
     public class TbUser
     {
+        public TbUser()
+        {
+            ICollection<TbService> _TbServices = new HashSet<TbService>();
+        }
         [Key]
         [ValidateNever]
         public int UserID { get; set; }
@@ -43,5 +47,8 @@ namespace Domains
 
         [ValidateNever]
         public int UserCurrentState { get; set; }
+
+        // A single user can make multiple services :
+        public virtual ICollection<TbService> _TbServices { get; set; }
     }
 }

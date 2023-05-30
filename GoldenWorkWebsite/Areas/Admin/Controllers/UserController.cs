@@ -17,7 +17,9 @@ namespace GoldenWorkWebsite.Areas.Admin.Controllers
         private IBusinessLayer<TbTechnician> otechnicianService;
         private IBusinessLayer<TbCustomer> ocustomerService;
         private IBusinessLayer<TbCustomerReview> ocustomerReviewnService;
+
         private AdminViewModel viewModel = new AdminViewModel();
+
         private readonly IUnitOfWork unitOfWork;
         public UserController(IBusinessLayer<TbAbout> _aboutService, IUnitOfWork _unitOfWork, IBusinessLayer<TbService> _oServiceService, IBusinessLayer<TbTechnician> _otechnicianService, IBusinessLayer<TbCustomer> _ocustomerService, IBusinessLayer<TbCustomerReview> _ocustomerReviewnService, IBusinessLayer<TbUser> _oUseService)
         {
@@ -42,14 +44,16 @@ namespace GoldenWorkWebsite.Areas.Admin.Controllers
         }
 
         #region Edit by user id
-        public IActionResult Edit(int? userID)
-        {            
+        public IActionResult UserEdit(int? userID)
+        {
+            viewModel.LesTbAbouts = oAboutService.GetAll();
             if (userID != null)
             {
-                oUseService = oUseService.GetById(userID);
+                viewModel.inpTbUser = oUseService.GetById(Convert.ToInt32(userID));
             }
+            ViewData.Model = viewModel;
             unitOfWork.Dispose();
-            return View(viewModel.inpTbUser);
+            return View();
         }
         #endregion
 
@@ -70,6 +74,15 @@ namespace GoldenWorkWebsite.Areas.Admin.Controllers
             return RedirectToAction("UserList");
         }
 
+        #endregion
+
+        #region Delete By bankAccount Id
+        public IActionResult userDelete(int userID)
+        {
+            oUseService.Delete(userID);
+            unitOfWork.Dispose();
+            return RedirectToAction("UserList");
+        }
         #endregion
     }
 }

@@ -20,8 +20,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/Service/Service.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxTZXJ2aWNlLmNzaHRtbA==
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/Service/ServiceEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxTZXJ2aWNlRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/Service/ServiceList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxTZXJ2aWNlTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/USB Drive/ايهاب/c\#/proffitional/WEB/NORMAL/GoldenWorkWebsite/GoldenWorkWebsite/Areas/Admin/Views/Shared/Error.cshtml]

@@ -31,15 +31,19 @@ namespace Bl
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-           /* modelBuilder.Entity<TbCustomer>()
-                    .HasMany(c => c._TbBookings)
-                    .WithOne(b => b._TbCustomer)
-                    .HasForeignKey(b => b.CustomerID);*/
+            /* modelBuilder.Entity<TbCustomer>()
+                     .HasMany(c => c._TbBookings)
+                     .WithOne(b => b._TbCustomer)
+                     .HasForeignKey(b => b.CustomerID);*/
 
             /*modelBuilder.Entity<TbService>()
                     .HasMany(a => a._TbBookings)
                     .WithOne(b => b._TbService)
                     .HasForeignKey(c => c.ServiceID);*/
+            modelBuilder.Entity<TbUser>()
+                .HasMany(c => c._TbServices)
+                .WithOne(d => d._TbUser)
+                .HasForeignKey(e => e.UserID);
 
             modelBuilder.Entity<TbCustomer>()
                     .HasMany(a => a._TbCustomerReviews)

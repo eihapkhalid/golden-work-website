@@ -1,0 +1,105 @@
+﻿@model AdminViewModel
+
+<div class="container-fluid page-body-wrapper">
+     <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="card-body">
+                <h4 class="card-title">Default form</h4>
+                <p class="card-description"> Basic form layout </p>
+                <form class="form-inline repeater" class="forms-sample" method="post" enctype="multipart/form-data" class="form-inline repeater"
+                    asp-controller="service" asp-action="ServiceSave" role="form">
+                    <!--------------------- hidden Files -------------------------->
+
+                    <input asp-for="@Model.inpTbService.ServiceID" type="hidden"/>
+                    <input asp-for="@Model.inpTbService._TbUser.UserID" type="hidden"/>
+                    <!-------------------- end hidden Files ----------------------->
+
+                    <!-------------------- start TbUsers form --------------------->
+                    
+                    <div class="form-group">
+                    <label >ServiceName</label>
+                    <input type="text" class="form-control"  placeholder="UserName"
+                            asp-for="@Model.inpTbService.ServiceName" maxlength="50">
+                    <span  asp-validation-for="@Model.inpTbService.ServiceName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                    <label >ServiceTitle</label>
+                    <input type="text" class="form-control"  placeholder="UserPassword"
+                            asp-for="@Model.inpTbService.ServiceTitle" maxlength="50">
+                    <span  asp-validation-for="@Model.inpTbService.ServiceTitle" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                    <label >ServicePrice</label>
+                    <input type="number" class="form-control"  placeholder="Branch Number"
+                            asp-for="@Model.inpTbService.ServicePrice" maxlength="20">
+                    <span  asp-validation-for="@Model.inpTbService.ServicePrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                    <label >ServiceCurrentlyFeatured</label>
+                    <input type="number" class="form-control"  placeholder="Branch Number"
+                            asp-for="@Model.inpTbService.ServiceCurrentlyFeatured" maxlength="50">
+                    <span  asp-validation-for="@Model.inpTbService.ServiceCurrentlyFeatured" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                    <label >ServiceImage</label>
+                    <input type="text" class="form-control"  placeholder="UserRole"
+                            asp-for="@Model.inpTbService.ServiceImage" maxlength="50">
+                    <span  asp-validation-for="@Model.inpTbService.ServiceImage" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                    <label >ServiceImage</label>
+                    <input type="text" class="form-control"  placeholder="UserRole"
+                            asp-for="@Model.inpTbService.ServiceDescription" maxlength="50">
+                    <span  asp-validation-for="@Model.inpTbService.ServiceDescription" class="text-danger"></span>
+                    </div>
+                    <!-------------------- start TbUsers form --------------------->
+                    <button type="submit" formmethod="post"  class="btn btn-gradient-primary me-2">Submit</button>
+                    <button  class="btn btn-light">Cancel</button>
+               </form>
+             </div>
+         </div>
+     </div>
+</div>
+
+@section Scripts
+    {
+            <script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" ></script>
+            <script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js" ></script>
+
+            <!-- Plugin js for this page -->
+            <script src="~/Admin/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
+            <script src="~/Admin/vendors/jquery-asColor/jquery-asColor.min.js"></script>
+            <script src="~/Admin/vendors/jquery-asGradient/jquery-asGradient.min.js"></script>
+            <script src="~/Admin/vendors/jquery-asColorPicker/jquery-asColorPicker.min.js"></script>
+            <script src="~/Admin/vendors/x-editable/bootstrap-editable.min.js"></script>
+            <script src="~/Admin/vendors/moment/moment.min.js"></script>
+            <script src="~/Admin/vendors/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.js"></script>
+            <script src="~/Admin/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+            <script src="~/Admin/vendors/dropify/dropify.min.js"></script>
+            <script src="~/Admin/vendors/jquery-file-upload/jquery.uploadfile.min.js"></script>
+            <script src="~/Admin/vendors/jquery-tags-input/jquery.tagsinput.min.js"></script>
+            <script src="~/Admin/vendors/dropzone/dropzone.js"></script>
+            <script src="~/Admin/vendors/jquery.repeater/jquery.repeater.min.js"></script>
+            <script src="~/Admin/vendors/inputmask/jquery.inputmask.bundle.js"></script>
+            <!-- End plugin js for this page -->
+
+
+
+            <!-- Custom js for this page -->
+            <script src="~/Admin/js/file-upload.js"></script>
+            <script src="~/Admin/js/typeahead.js"></script>
+            <script src="~/Admin/js/select2.js"></script>
+            <!-- End custom js for this page -->
+
+            <!-- Custom js for this page -->
+            <script src="~/Admin/js/formpickers.js"></script>
+            <script src="~/Admin/js/form-addons.js"></script>
+            <script src="~/Admin/js/x-editable.js"></script>
+            <script src="~/Admin/js/dropify.js"></script>
+            <script src="~/Admin/js/dropzone.js"></script>
+            <script src="~/Admin/js/jquery-file-upload.js"></script>
+            <script src="~/Admin/js/formpickers.js"></script>
+            <script src="~/Admin/js/form-repeater.js"></script>
+            <script src="~/Admin/js/inputmask.js"></script>
+            <!-- End custom js for this page -->
+                    }

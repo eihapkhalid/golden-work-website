@@ -91,14 +91,14 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">الصفحة الرئيسية</a>
                 <a asp-controller="About" asp-action="About" class="nav-item nav-link">من نحن</a>
-                <a asp-controller="Service" asp-action="Service"  class="nav-item nav-link">خدماتنا</a>
+                <a asp-area="admin" asp-controller="Service" asp-action="ServiceList"  class="nav-item nav-link">خدماتنا</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">صفحات</a>
                     <div class="dropdown-menu fade-up m-0">
-                        <a asp-controller="user" asp-action="user" class="dropdown-item">قائمة المستخدمين</a>
+                        <a asp-area="admin" asp-controller="user" asp-action="userList" class="dropdown-item">قائمة المستخدمين</a>
                         <a asp-controller="user" asp-action="user" class="dropdown-item">قائمة فريق العمل</a>
                         <a asp-controller="About" asp-action="About" class="dropdown-item">قائمة من نحن</a>
-                        <a asp-controller="Service" asp-action="Service" class="dropdown-item">قائمة الخدمات</a>
+                        <a asp-area="admin" asp-controller="Service" asp-action="ServiceList" class="dropdown-item">قائمة الخدمات</a>
                         <a asp-controller="Booking" asp-action="Booking" class="dropdown-item">قائمة عروض الاسعار</a>
                         <a asp-controller="Contact" asp-action="Contact" class="dropdown-item">قائمة الاتصال</a>
                     </div>

@@ -23,12 +23,12 @@ namespace Bl.Services
         #endregion
 
         #region Delete Service
-        bool IBusinessLayer<TbService>.Delete(int id)
+        bool IBusinessLayer<TbService>.Delete(int serviceid)
         {
             try
             {
 
-                var service = ((IBusinessLayer<TbService>)this).GetById(id);
+                var service = ((IBusinessLayer<TbService>)this).GetById(serviceid);
                 service.ServiceCurrentState = 0;
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
@@ -77,11 +77,14 @@ namespace Bl.Services
             {
                 if (table.ServiceID == 0)
                 {
+                    table.UserCreateTime= DateTime.Now;
                     table.ServiceCurrentState = 1;
                     serviceRepository.Add(table);
                 }
                 else
                 {
+                    table.UserUpdateTime = DateTime.Now;
+                    table.ServiceCurrentState = 1;
                     serviceRepository.Edit(table);
                 }
                 unitOfWork.Commit(); //context.SaveChanges();

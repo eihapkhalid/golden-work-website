@@ -13,6 +13,7 @@ namespace Domains
         public TbService()
         {
           //  ICollection<TbBooking> _TbBookings = new HashSet<TbBooking>();
+          TbUser _TbUser = new TbUser();
         }
         [Key]
         public int ServiceID { get; set; }
@@ -54,8 +55,11 @@ namespace Domains
         public int ServiceCurrentState { get; set; }
 
         // A single Service can make multiple bookings :
-       // public virtual ICollection<TbBooking> _TbBookings { get; set; }
+        // public virtual ICollection<TbBooking> _TbBookings { get; set; }
 
+        //Each service belongs to only one user  :
+        public int UserID { get; set; }
+        public virtual TbUser _TbUser { get; set; }
 
     }
 }

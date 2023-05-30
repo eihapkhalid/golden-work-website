@@ -412,10 +412,15 @@ namespace Bl.Migrations
                     b.Property<DateTime>("UserCreateTime")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("UserUpdateTime")
                         .HasColumnType("datetime2");
 
                     b.HasKey("ServiceID");
+
+                    b.HasIndex("UserID");
 
                     b.ToTable("TbServices");
                 });
@@ -535,11 +540,27 @@ namespace Bl.Migrations
                     b.Navigation("_TbCustomer");
                 });
 
+            modelBuilder.Entity("Domains.TbService", b =>
+                {
+                    b.HasOne("Domains.TbUser", "_TbUser")
+                        .WithMany("_TbServices")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("_TbUser");
+                });
+
             modelBuilder.Entity("Domains.TbCustomer", b =>
                 {
                     b.Navigation("_TbBookings");
 
                     b.Navigation("_TbCustomerReviews");
+                });
+
+            modelBuilder.Entity("Domains.TbUser", b =>
+                {
+                    b.Navigation("_TbServices");
                 });
 #pragma warning restore 612, 618
         }

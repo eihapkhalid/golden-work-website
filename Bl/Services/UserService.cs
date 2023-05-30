@@ -23,12 +23,12 @@ namespace Bl.Services
         #endregion
 
         #region Delete User
-        bool IBusinessLayer<TbUser>.Delete(int id)
+        bool IBusinessLayer<TbUser>.Delete(int userid)
         {
             try
             {
 
-                var user = ((IBusinessLayer<TbUser>)this).GetById(id);
+                var user = ((IBusinessLayer<TbUser>)this).GetById(userid);
                 user.UserCurrentState = 0;
                 unitOfWork.Commit(); //context.SaveChanges();
                 return true;
@@ -84,6 +84,7 @@ namespace Bl.Services
                 }
                 else
                 {
+                    table.UserCurrentState = 1;
                     table.UserUpdateTime = DateTime.Now;
                     userRepository.Edit(table);
                 }
